@@ -54,8 +54,8 @@ Edit this document to include your answers after each question. Make sure to lea
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
    I really enjoy nesting in LESS, it makes the most sense and I feel as though regular CSS should enable that. I understand the use of mix-ins, but so far I feel 
-   as though I haven't found a helpful use for them.
-   
+   as though I haven't found a helpful use for them. 
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
