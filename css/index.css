@@ -321,21 +321,28 @@ footer {
   background: #f4f4f4;
   border: 1px double #e0e0e0;
 }
+.signinbody {
+  background: linear-gradient(circle, grey, white);
+}
 .loginblock {
   display: flex;
   width: 700px;
-  height: 500px;
+  height: 250px;
   background-color: lightgrey;
-  margin: 175px auto;
+  margin: 225px auto;
   border-radius: 25px;
   align-items: center;
   opacity: 0.9;
   flex-direction: column;
+  justify-content: space-evenly;
+}
+@media (max-width: 700px) {
+  .loginblock {
+    width: 100%;
+  }
 }
 .loginblock h1 {
   font-size: 6rem;
-  margin-bottom: 200px;
-  margin-top: 50px;
 }
 .loginblock form {
   font-size: 4rem;
@@ -347,4 +354,10 @@ footer {
   width: 200px;
   height: 35px;
   margin-left: 10px;
+}
+.loginblock .pass {
+  margin-bottom: 25px;
+}
+.loginblock .pass .passin {
+  margin-left: 15px;
 }
