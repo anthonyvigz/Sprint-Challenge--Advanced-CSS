@@ -188,6 +188,13 @@ p {
   color: black;
   font-size: 1.6rem;
   padding: 0 15px;
+  transition: 1s;
+}
+.navigationbar nav a:hover {
+  font-size: 1.8rem;
+  color: darkcyan;
+  font-weight: bold;
+  transition: 1s;
 }
 .home {
   margin-top: 100px;
