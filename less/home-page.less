@@ -92,12 +92,22 @@
         .btnstyle(@btn-bg-color, bold, 5px);
         transition: 1s;
 
+        @media @phone {
+          width: 100%;
+          text-align: center;
+          padding: 25px;
+        }
+
         &:hover {
           background-color: white;
           color: @btn-bg-color;
           transition: 1s;
           border: solid 1px @btn-bg-color;
           padding: 9px 14px;
+
+          @media @phone {
+            padding: 24px;
+          }
         }
       }
     }

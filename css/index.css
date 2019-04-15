@@ -266,12 +266,24 @@ p {
   display: inline-block;
   transition: 1s;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+  }
+}
 .home .walk .walk-text .btn:hover {
   background-color: white;
   color: #22283A;
   transition: 1s;
   border: solid 1px #22283A;
   padding: 9px 14px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn:hover {
+    padding: 24px;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
