@@ -321,3 +321,30 @@ footer {
   background: #f4f4f4;
   border: 1px double #e0e0e0;
 }
+.loginblock {
+  display: flex;
+  width: 700px;
+  height: 500px;
+  background-color: lightgrey;
+  margin: 175px auto;
+  border-radius: 25px;
+  align-items: center;
+  opacity: 0.9;
+  flex-direction: column;
+}
+.loginblock h1 {
+  font-size: 6rem;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+.loginblock form {
+  font-size: 4rem;
+  font-family: 'Russo One', sans-serif;
+  display: flex;
+  align-items: center;
+}
+.loginblock form input {
+  width: 200px;
+  height: 35px;
+  margin-left: 10px;
+}
