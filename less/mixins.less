@@ -1,1 +1,23 @@
 // Mixins Here
+
+.btnstyle(@bgroundcolor: @btn-bg-color, @bold: bold, @bordrad: 10px) {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    background-color: @btn-bg-color;
+    font-weight: @bold;
+    color: white;
+    border-radius: @bordrad;
+    display: inline-block;
+}
+
+.pstyle() {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.footercolors() {
+  color: #22283B;
+  background: #f4f4f4;
+  border: 1px double #e0e0e0;
+}

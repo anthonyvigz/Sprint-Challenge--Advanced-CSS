@@ -1,1 +1,41 @@
 // Navigation code here
+
+.navigationbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: @nav-bg;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    h1 {
+        font-size: 3.8rem;
+        font-weight: bold;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.6rem;
+            padding: 0 15px;
+            transition: 1s;
+
+            &:hover {
+                font-size: 1.8rem;
+                color: darkcyan;
+                font-weight: bold;
+                transition: 1s;
+            }
+        }
+    }
+}
